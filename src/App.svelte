@@ -1,5 +1,7 @@
 <script>
-  const name = "world";
+  import IntroductionBasics from "./1-introduction/a-basics.svelte";
+  import IntroductionAddingData from "./1-introduction/b-adding-data.svelte";
 </script>
 
-<h1>Hello {name.toUpperCase()}</h1>
+<!-- <IntroductionBasics></IntroductionBasics> -->
+<IntroductionAddingData></IntroductionAddingData>
