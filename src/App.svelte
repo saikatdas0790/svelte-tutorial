@@ -1,1 +1,5 @@
-<h1>Hello world!</h1>
+<script>
+  const name = "world";
+</script>
+
+<h1>Hello {name.toUpperCase()}</h1>
