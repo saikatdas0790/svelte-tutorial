@@ -4,10 +4,12 @@
   import IntroductionDynamicAttributes from "./c-dynamic-attributes/index.svelte";
   import IntroductionStyling from "./d-styling/index.svelte";
   import IntroductionNestedComponents from "./e-nested-components/index.svelte";
+  import IntroductionHTMLTags from "./f-html-tags/index.svelte";
 </script>
 
 <!-- <IntroductionBasics></IntroductionBasics> -->
 <!-- <IntroductionAddingData></IntroductionAddingData> -->
 <!-- <IntroductionDynamicAttributes></IntroductionDynamicAttributes> -->
 <!-- <IntroductionStyling></IntroductionStyling> -->
-<IntroductionNestedComponents></IntroductionNestedComponents>
+<!-- <IntroductionNestedComponents></IntroductionNestedComponents> -->
+<IntroductionHTMLTags></IntroductionHTMLTags>
