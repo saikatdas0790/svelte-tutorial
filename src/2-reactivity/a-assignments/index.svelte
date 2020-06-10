@@ -6,6 +6,6 @@
   };
 </script>
 
-<button on:click="{handleClick}">
-  Clicked {count} {count === 1 ? "time" : "times"}
+<button on:click={handleClick}>
+  Clicked {count} {count === 1 ? 'time' : 'times'}
 </button>
