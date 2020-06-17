@@ -4,10 +4,12 @@
   import EventsEventModifiers from "./c-event-modifiers/index.svelte";
   import EventsComponentEvent from "./d-component-event/index.svelte";
   import EventsEventForwarding from "./e-event-forwarding/index.svelte";
+  import EventsDOMEventForwarding from "./f-dom-event-forwarding/index.svelte";
 </script>
 
 <!-- <EventsDOMEvents /> -->
 <!-- <EventsInlineHandlers /> -->
 <!-- <EventsEventModifiers /> -->
 <!-- <EventsComponentEvent /> -->
-<EventsEventForwarding />
+<!-- <EventsEventForwarding /> -->
+<EventsDOMEventForwarding />
