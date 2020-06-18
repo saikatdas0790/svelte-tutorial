@@ -2,8 +2,10 @@
   import BindingsTextInputs from "./a-text-inputs/index.svelte";
   import BindingsNumericInputs from "./b-numeric-inputs/index.svelte";
   import BindingsCheckboxInputs from "./c-checkbox-inputs/index.svelte";
+  import BindingsGroupInputs from "./d-group-inputs/index.svelte";
 </script>
 
 <!-- <BindingsTextInputs /> -->
 <!-- <BindingsNumericInputs /> -->
-<BindingsCheckboxInputs />
+<!-- <BindingsCheckboxInputs /> -->
+<BindingsGroupInputs />
