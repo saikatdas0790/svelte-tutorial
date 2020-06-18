@@ -3,9 +3,11 @@
   import BindingsNumericInputs from "./b-numeric-inputs/index.svelte";
   import BindingsCheckboxInputs from "./c-checkbox-inputs/index.svelte";
   import BindingsGroupInputs from "./d-group-inputs/index.svelte";
+  import BindingsTextAreaInputs from "./e-textarea-inputs/index.svelte";
 </script>
 
 <!-- <BindingsTextInputs /> -->
 <!-- <BindingsNumericInputs /> -->
 <!-- <BindingsCheckboxInputs /> -->
-<BindingsGroupInputs />
+<!-- <BindingsGroupInputs /> -->
+<BindingsTextAreaInputs />
