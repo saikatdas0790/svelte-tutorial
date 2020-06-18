@@ -5,6 +5,7 @@
   import BindingsGroupInputs from "./d-group-inputs/index.svelte";
   import BindingsTextAreaInputs from "./e-textarea-inputs/index.svelte";
   import BindingsSelectBindings from "./f-select-bindings/index.svelte";
+  import BindingsSelectMultiple from "./g-select-multiple/index.svelte";
 </script>
 
 <!-- <BindingsTextInputs /> -->
@@ -12,4 +13,5 @@
 <!-- <BindingsCheckboxInputs /> -->
 <!-- <BindingsGroupInputs /> -->
 <!-- <BindingsTextAreaInputs /> -->
-<BindingsSelectBindings />
+<!-- <BindingsSelectBindings /> -->
+<BindingsSelectMultiple />
