@@ -6,6 +6,7 @@
   import BindingsTextAreaInputs from "./e-textarea-inputs/index.svelte";
   import BindingsSelectBindings from "./f-select-bindings/index.svelte";
   import BindingsSelectMultiple from "./g-select-multiple/index.svelte";
+  import BindingsContenteditableBindings from "./h-contenteditable-bindings/index.svelte";
 </script>
 
 <!-- <BindingsTextInputs /> -->
@@ -14,4 +15,5 @@
 <!-- <BindingsGroupInputs /> -->
 <!-- <BindingsTextAreaInputs /> -->
 <!-- <BindingsSelectBindings /> -->
-<BindingsSelectMultiple />
+<!-- <BindingsSelectMultiple /> -->
+<BindingsContenteditableBindings />
