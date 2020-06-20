@@ -8,6 +8,7 @@
   import BindingsSelectMultiple from "./g-select-multiple/index.svelte";
   import BindingsContenteditableBindings from "./h-contenteditable-bindings/index.svelte";
   import BindingsEachBlockBindings from "./i-each-block-bindings/index.svelte";
+  import BindingsMediaElements from "./j-media-elements/index.svelte";
 </script>
 
 <!-- <BindingsTextInputs /> -->
@@ -18,4 +19,5 @@
 <!-- <BindingsSelectBindings /> -->
 <!-- <BindingsSelectMultiple /> -->
 <!-- <BindingsContenteditableBindings /> -->
-<BindingsEachBlockBindings />
+<!-- <BindingsEachBlockBindings /> -->
+<BindingsMediaElements />
