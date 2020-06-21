@@ -11,6 +11,7 @@
   import BindingsMediaElements from "./j-media-elements/index.svelte";
   import BindingsDimensions from "./k-dimensions/index.svelte";
   import BindingsThis from "./l-this/index.svelte";
+  import BindingsComponentBindings from "./m-component-bindings/index.svelte";
 </script>
 
 <!-- <BindingsTextInputs /> -->
@@ -24,4 +25,5 @@
 <!-- <BindingsEachBlockBindings /> -->
 <!-- <BindingsMediaElements /> -->
 <!-- <BindingsDimensions /> -->
-<BindingsThis />
+<!-- <BindingsThis /> -->
+<BindingsComponentBindings />
