@@ -10,6 +10,7 @@
   import BindingsEachBlockBindings from "./i-each-block-bindings/index.svelte";
   import BindingsMediaElements from "./j-media-elements/index.svelte";
   import BindingsDimensions from "./k-dimensions/index.svelte";
+  import BindingsThis from "./l-this/index.svelte";
 </script>
 
 <!-- <BindingsTextInputs /> -->
@@ -22,4 +23,5 @@
 <!-- <BindingsContenteditableBindings /> -->
 <!-- <BindingsEachBlockBindings /> -->
 <!-- <BindingsMediaElements /> -->
-<BindingsDimensions />
+<!-- <BindingsDimensions /> -->
+<BindingsThis />
