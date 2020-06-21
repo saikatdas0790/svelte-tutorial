@@ -4,6 +4,7 @@ import PropsApp from "./3-props/PropsApp.svelte";
 import LogicApp from "./4-logic/LogicApp.svelte";
 import EventsApp from "./5-events/EventsApp.svelte";
 import BindingsApp from "./6-bindings/BindingsApp.svelte";
+import LifecycleApp from "./7-lifecycle/LifecycleApp.svelte";
 
 // const app = new IntroductionApp({
 //   target: document.body,
@@ -25,7 +26,11 @@ import BindingsApp from "./6-bindings/BindingsApp.svelte";
 //   target: document.body,
 // });
 
-const app = new BindingsApp({
+// const app = new BindingsApp({
+//   target: document.body,
+// });
+
+const app = new LifecycleApp({
   target: document.body,
 });
 
