@@ -5,6 +5,7 @@ import LogicApp from "./4-logic/LogicApp.svelte";
 import EventsApp from "./5-events/EventsApp.svelte";
 import BindingsApp from "./6-bindings/BindingsApp.svelte";
 import LifecycleApp from "./7-lifecycle/LifecycleApp.svelte";
+import StoresApp from "./8-stores/StoresApp.svelte";
 
 // const app = new IntroductionApp({
 //   target: document.body,
@@ -30,7 +31,11 @@ import LifecycleApp from "./7-lifecycle/LifecycleApp.svelte";
 //   target: document.body,
 // });
 
-const app = new LifecycleApp({
+// const app = new LifecycleApp({
+//   target: document.body,
+// });
+
+const app = new StoresApp({
   target: document.body,
 });
 
