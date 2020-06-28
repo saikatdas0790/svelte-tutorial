@@ -4,10 +4,12 @@
   import StoresReadableStores from "./c-readable-stores/index.svelte";
   import StoresDerivedStores from "./d-derived-stores/index.svelte";
   import StoresCustomStores from "./e-custom-stores/index.svelte";
+  import StoresStoreBindings from "./f-store-bindings/index.svelte";
 </script>
 
 <!-- <StoresWritableStores /> -->
 <!-- <StoresAutoSubscriptions /> -->
 <!-- <StoresReadableStores /> -->
 <!-- <StoresDerivedStores /> -->
-<StoresCustomStores />
+<!-- <StoresCustomStores /> -->
+<StoresStoreBindings />
