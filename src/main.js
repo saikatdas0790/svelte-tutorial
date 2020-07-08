@@ -6,6 +6,7 @@ import EventsApp from "./5-events/EventsApp.svelte";
 import BindingsApp from "./6-bindings/BindingsApp.svelte";
 import LifecycleApp from "./7-lifecycle/LifecycleApp.svelte";
 import StoresApp from "./8-stores/StoresApp.svelte";
+import MotionApp from "./9-motion/MotionApp.svelte";
 
 // const app = new IntroductionApp({
 //   target: document.body,
@@ -35,7 +36,11 @@ import StoresApp from "./8-stores/StoresApp.svelte";
 //   target: document.body,
 // });
 
-const app = new StoresApp({
+// const app = new StoresApp({
+//   target: document.body,
+// });
+
+const app = new MotionApp({
   target: document.body,
 });
 
