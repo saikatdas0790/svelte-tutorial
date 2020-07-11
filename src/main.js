@@ -7,6 +7,7 @@ import BindingsApp from "./6-bindings/BindingsApp.svelte";
 import LifecycleApp from "./7-lifecycle/LifecycleApp.svelte";
 import StoresApp from "./8-stores/StoresApp.svelte";
 import MotionApp from "./9-motion/MotionApp.svelte";
+import TransitionsApp from "./10-transitions/TransitionsApp.svelte";
 
 // const app = new IntroductionApp({
 //   target: document.body,
@@ -40,7 +41,11 @@ import MotionApp from "./9-motion/MotionApp.svelte";
 //   target: document.body,
 // });
 
-const app = new MotionApp({
+// const app = new MotionApp({
+//   target: document.body,
+// });
+
+const app = new TransitionsApp({
   target: document.body,
 });
 
