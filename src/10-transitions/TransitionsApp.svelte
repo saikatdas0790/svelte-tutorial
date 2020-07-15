@@ -6,6 +6,7 @@
   import TransitionsCustomJSTransitions from "./e-custom-js-transitions/index.svelte";
   import TransitionsTransitionEvents from "./f-transition-events/index.svelte";
   import TransitionsLocalTransitions from "./g-local-transitions/index.svelte";
+  import TransitionsDeferredTransitions from "./h-deferred-transitions/index.svelte";
 </script>
 
 <!-- <TransitionsTheTransitionDirective /> -->
@@ -14,4 +15,5 @@
 <!-- <TransitionsCustomCSSTransitions /> -->
 <!-- <TransitionsCustomJSTransitions /> -->
 <!-- <TransitionsTransitionEvents /> -->
-<TransitionsLocalTransitions />
+<!-- <TransitionsLocalTransitions /> -->
+<TransitionsDeferredTransitions />
