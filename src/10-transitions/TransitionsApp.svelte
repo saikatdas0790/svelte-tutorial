@@ -5,6 +5,7 @@
   import TransitionsCustomCSSTransitions from "./d-custom-css-transitions/index.svelte";
   import TransitionsCustomJSTransitions from "./e-custom-js-transitions/index.svelte";
   import TransitionsTransitionEvents from "./f-transition-events/index.svelte";
+  import TransitionsLocalTransitions from "./g-local-transitions/index.svelte";
 </script>
 
 <!-- <TransitionsTheTransitionDirective /> -->
@@ -12,4 +13,5 @@
 <!-- <TransitionsInAndOut /> -->
 <!-- <TransitionsCustomCSSTransitions /> -->
 <!-- <TransitionsCustomJSTransitions /> -->
-<TransitionsTransitionEvents />
+<!-- <TransitionsTransitionEvents /> -->
+<TransitionsLocalTransitions />
