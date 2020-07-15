@@ -3,9 +3,11 @@
   import TransitionsAddingParameters from "./b-adding-parameters/index.svelte";
   import TransitionsInAndOut from "./c-in-and-out/index.svelte";
   import TransitionsCustomCSSTransitions from "./d-custom-css-transitions/index.svelte";
+  import TransitionsCustomJSTransitions from "./e-custom-js-transitions/index.svelte";
 </script>
 
 <!-- <TransitionsTheTransitionDirective /> -->
 <!-- <TransitionsAddingParameters /> -->
 <!-- <TransitionsInAndOut /> -->
-<TransitionsCustomCSSTransitions />
+<!-- <TransitionsCustomCSSTransitions /> -->
+<TransitionsCustomJSTransitions />
