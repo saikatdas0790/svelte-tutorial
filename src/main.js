@@ -9,6 +9,7 @@ import StoresApp from "./8-stores/StoresApp.svelte";
 import MotionApp from "./9-motion/MotionApp.svelte";
 import TransitionsApp from "./10-transitions/TransitionsApp.svelte";
 import AnimationsApp from "./11-animations/AnimationsApp.svelte";
+import ActionsApp from "./12-actions/ActionsApp.svelte";
 
 // const app = new IntroductionApp({
 //   target: document.body,
@@ -50,7 +51,11 @@ import AnimationsApp from "./11-animations/AnimationsApp.svelte";
 //   target: document.body,
 // });
 
-const app = new AnimationsApp({
+// const app = new AnimationsApp({
+//   target: document.body,
+// });
+
+const app = new ActionsApp({
   target: document.body,
 });
 
