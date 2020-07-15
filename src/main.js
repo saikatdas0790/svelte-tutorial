@@ -10,6 +10,7 @@ import MotionApp from "./9-motion/MotionApp.svelte";
 import TransitionsApp from "./10-transitions/TransitionsApp.svelte";
 import AnimationsApp from "./11-animations/AnimationsApp.svelte";
 import ActionsApp from "./12-actions/ActionsApp.svelte";
+import ClassesApp from "./13-classes/ClassesApp.svelte";
 
 // const app = new IntroductionApp({
 //   target: document.body,
@@ -55,7 +56,11 @@ import ActionsApp from "./12-actions/ActionsApp.svelte";
 //   target: document.body,
 // });
 
-const app = new ActionsApp({
+// const app = new ActionsApp({
+//   target: document.body,
+// });
+
+const app = new ClassesApp({
   target: document.body,
 });
 
