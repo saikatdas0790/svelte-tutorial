@@ -4,10 +4,12 @@
   import TransitionsInAndOut from "./c-in-and-out/index.svelte";
   import TransitionsCustomCSSTransitions from "./d-custom-css-transitions/index.svelte";
   import TransitionsCustomJSTransitions from "./e-custom-js-transitions/index.svelte";
+  import TransitionsTransitionEvents from "./f-transition-events/index.svelte";
 </script>
 
 <!-- <TransitionsTheTransitionDirective /> -->
 <!-- <TransitionsAddingParameters /> -->
 <!-- <TransitionsInAndOut /> -->
 <!-- <TransitionsCustomCSSTransitions /> -->
-<TransitionsCustomJSTransitions />
+<!-- <TransitionsCustomJSTransitions /> -->
+<TransitionsTransitionEvents />
