@@ -11,6 +11,7 @@ import TransitionsApp from "./10-transitions/TransitionsApp.svelte";
 import AnimationsApp from "./11-animations/AnimationsApp.svelte";
 import ActionsApp from "./12-actions/ActionsApp.svelte";
 import ClassesApp from "./13-classes/ClassesApp.svelte";
+import ComponentCompositionApp from "./14-component-composition/ComponentCompositionApp.svelte";
 
 // const app = new IntroductionApp({
 //   target: document.body,
@@ -60,7 +61,11 @@ import ClassesApp from "./13-classes/ClassesApp.svelte";
 //   target: document.body,
 // });
 
-const app = new ClassesApp({
+// const app = new ClassesApp({
+//   target: document.body,
+// });
+
+const app = new ComponentCompositionApp({
   target: document.body,
 });
 
