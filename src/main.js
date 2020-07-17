@@ -12,6 +12,7 @@ import AnimationsApp from "./11-animations/AnimationsApp.svelte";
 import ActionsApp from "./12-actions/ActionsApp.svelte";
 import ClassesApp from "./13-classes/ClassesApp.svelte";
 import ComponentCompositionApp from "./14-component-composition/ComponentCompositionApp.svelte";
+import ContextAPIApp from "./15-context-api/ContextAPIApp.svelte";
 
 // const app = new IntroductionApp({
 //   target: document.body,
@@ -65,7 +66,11 @@ import ComponentCompositionApp from "./14-component-composition/ComponentComposi
 //   target: document.body,
 // });
 
-const app = new ComponentCompositionApp({
+// const app = new ComponentCompositionApp({
+//   target: document.body,
+// });
+
+const app = new ContextAPIApp({
   target: document.body,
 });
 
