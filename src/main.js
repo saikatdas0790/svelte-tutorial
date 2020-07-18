@@ -14,6 +14,7 @@ import ClassesApp from "./13-classes/ClassesApp.svelte";
 import ComponentCompositionApp from "./14-component-composition/ComponentCompositionApp.svelte";
 import ContextAPIApp from "./15-context-api/ContextAPIApp.svelte";
 import SpecialElementsApp from "./16-special-elements/SpecialElementsApp.svelte";
+import ModuleContextApp from "./17-module-context/ModuleContextApp.svelte";
 
 // const app = new IntroductionApp({
 //   target: document.body,
@@ -75,7 +76,11 @@ import SpecialElementsApp from "./16-special-elements/SpecialElementsApp.svelte"
 //   target: document.body,
 // });
 
-const app = new SpecialElementsApp({
+// const app = new SpecialElementsApp({
+//   target: document.body,
+// });
+
+const app = new ModuleContextApp({
   target: document.body,
 });
 
