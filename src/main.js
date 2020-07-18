@@ -1,21 +1,22 @@
-import IntroductionApp from "./1-introduction/IntroductionApp.svelte";
-import ReactivityApp from "./2-reactivity/ReactivityApp.svelte";
-import PropsApp from "./3-props/PropsApp.svelte";
-import LogicApp from "./4-logic/LogicApp.svelte";
-import EventsApp from "./5-events/EventsApp.svelte";
-import BindingsApp from "./6-bindings/BindingsApp.svelte";
-import LifecycleApp from "./7-lifecycle/LifecycleApp.svelte";
-import StoresApp from "./8-stores/StoresApp.svelte";
-import MotionApp from "./9-motion/MotionApp.svelte";
-import TransitionsApp from "./10-transitions/TransitionsApp.svelte";
-import AnimationsApp from "./11-animations/AnimationsApp.svelte";
-import ActionsApp from "./12-actions/ActionsApp.svelte";
-import ClassesApp from "./13-classes/ClassesApp.svelte";
-import ComponentCompositionApp from "./14-component-composition/ComponentCompositionApp.svelte";
-import ContextAPIApp from "./15-context-api/ContextAPIApp.svelte";
-import SpecialElementsApp from "./16-special-elements/SpecialElementsApp.svelte";
-import ModuleContextApp from "./17-module-context/ModuleContextApp.svelte";
-import DebuggingApp from "./18-debugging/DebuggingApp.svelte";
+// import IntroductionApp from "./1-introduction/IntroductionApp.svelte";
+// import ReactivityApp from "./2-reactivity/ReactivityApp.svelte";
+// import PropsApp from "./3-props/PropsApp.svelte";
+// import LogicApp from "./4-logic/LogicApp.svelte";
+// import EventsApp from "./5-events/EventsApp.svelte";
+// import BindingsApp from "./6-bindings/BindingsApp.svelte";
+// import LifecycleApp from "./7-lifecycle/LifecycleApp.svelte";
+// import StoresApp from "./8-stores/StoresApp.svelte";
+// import MotionApp from "./9-motion/MotionApp.svelte";
+// import TransitionsApp from "./10-transitions/TransitionsApp.svelte";
+// import AnimationsApp from "./11-animations/AnimationsApp.svelte";
+// import ActionsApp from "./12-actions/ActionsApp.svelte";
+// import ClassesApp from "./13-classes/ClassesApp.svelte";
+// import ComponentCompositionApp from "./14-component-composition/ComponentCompositionApp.svelte";
+// import ContextAPIApp from "./15-context-api/ContextAPIApp.svelte";
+// import SpecialElementsApp from "./16-special-elements/SpecialElementsApp.svelte";
+// import ModuleContextApp from "./17-module-context/ModuleContextApp.svelte";
+// import DebuggingApp from "./18-debugging/DebuggingApp.svelte";
+import NextStepsApp from "./19-next-steps/NextStepsApp.svelte";
 
 // const app = new IntroductionApp({
 //   target: document.body,
@@ -85,7 +86,11 @@ import DebuggingApp from "./18-debugging/DebuggingApp.svelte";
 //   target: document.body,
 // });
 
-const app = new DebuggingApp({
+// const app = new DebuggingApp({
+//   target: document.body,
+// });
+
+const app = new NextStepsApp({
   target: document.body,
 });
 
