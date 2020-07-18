@@ -5,6 +5,7 @@
   import SpecialElementsSvelteWindowBindings from "./d-svelte-window-bindings/index.svelte";
   import SpecialElementsSvelteBody from "./e-svelte-body/index.svelte";
   import SpecialElementsSvelteHead from "./f-svelte-head/index.svelte";
+  import SpecialElementsSvelteOptions from "./g-svelte-options/index.svelte";
 </script>
 
 <!-- <SpecialElementsSvelteSelf /> -->
@@ -12,4 +13,5 @@
 <!-- <SpecialElementsSvelteWindow /> -->
 <!-- <SpecialElementsSvelteWindowBindings /> -->
 <!-- <SpecialElementsSvelteBody /> -->
-<SpecialElementsSvelteHead />
+<!-- <SpecialElementsSvelteHead /> -->
+<SpecialElementsSvelteOptions />
