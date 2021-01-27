@@ -1,11 +1,10 @@
 <script lang="ts">
+  import SomeComponent from "./SomeComponent.svelte";
   export let name: string;
 </script>
 
-<style>
-  h1 {
-    background-color: teal;
-  }
+<style lang="scss" global>
+  @import "bulma/bulma";
 </style>
 
 <main>
@@ -17,3 +16,4 @@
   </p>
   <button class="button is-primary">Click me</button>
 </main>
+<SomeComponent />
